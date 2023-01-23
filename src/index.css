@@ -10,10 +10,16 @@ body {
 .menu-item {
 }
 .menu-item:hover {
-  @apply bg-white text-black p-2;
+  @apply bg-white text-black;
 }
 h1 {
   @apply font-bold text-xl;
 }
 .technology {
+}
+p {
+  @apply font-bold;
+}
+img {
+  @apply h-[100px] w-[100px];
 }

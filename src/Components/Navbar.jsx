@@ -3,9 +3,8 @@ import { NavLink, useLocation } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <nav className="bg-black flex justify-between items-center p-4 navbar z-50 sticky top-0">
+      <nav className="bg-black flex justify-between items-center p-4 navbar z-50 sticky top-0 ">
         <div className="flex items-center">
-          <img src="" alt="Logo" className="h-8 w-8" />
           <span className="ml-2 text-white text-xl font-medium white-space-nowrap">
             Demo
           </span>
@@ -18,11 +17,7 @@ function Navbar() {
           >
             Home
           </NavLink>
-          <NavLink
-            to="/about"
-            href="#about"
-            className="text-white mx-8 menu-item"
-          >
+          <NavLink to="/about" className="text-white mx-8 menu-item" id="#name">
             About
           </NavLink>
           <NavLink

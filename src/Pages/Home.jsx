@@ -1,4 +1,6 @@
 import React from "react";
+import { FaFacebook } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import Navbar from "../Components/Navbar";
 
 const Home = () => {
@@ -21,13 +23,14 @@ const Home = () => {
             Freelancer , Developer{" "}
           </h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
-            sapiente molestias, modi, quibusdam aut ex et voluptas perferendis
-            ad culpa reiciendis aliquam quasi? Nisi minus reiciendis alias eaque
-            earum. Eos vitae nemo quos voluptatibus dolores eius iure esse
-            consectetur accusamus similique, ratione omnis deleniti iste ea
-            possimus magnam dolorum autem porro debitis reiciendis aliquid
-            praesentium expedita fugit nobis! Dicta id ea adipisci consequatur
+            I'm a front-end developer located in Nepal. I love to create simple
+            yet beautiful websites with great user experience.
+            <br /> <br />
+            I'm interested in the whole frontend stack Like trying new things
+            and building great projects. I'm an independent freelancer and
+            blogger. I love to write blogs and read books.
+            <br /> <br />I believe everything is an Art when you put your
+            consciousness in it. You can connect with me via social links.
           </p>
         </div>
       </div>
